@@ -1,0 +1,51 @@
+@media screen and (max-width: 800px) {
+  #navbar ul {
+    flex-direction: column;
+    height: 400px;
+    width: 0px;
+    margin-top: 78px;
+    display: none;
+  }
+  #navbar ul li {
+    margin-top: 5px;
+    line-height: 20px;
+  }
+  #navbar ul li a.active,
+  #navbar ul li a:hover {
+    background-color: transparent;
+    color: #0088a9;
+  }
+  .check-area {
+    display: flex;
+  }
+  .serach-box,
+  .search,
+  .btn {
+    display: none;
+  }
+  #check:checked + #navbar {
+    height: 290px;
+  }
+  #check:checked + #navbar ul {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #logo {
+    width: 112px;
+  }
+  #logo h3 {
+    font-size: 20px;
+  }
+  .check-area {
+    width: 32px;
+    height: 27px;
+    margin-top: 18px;
+    margin-right: 35px;
+    margin-left: 42px;
+  }
+  #navbar ul li a{
+    font-size: 16px;
+  }
+}

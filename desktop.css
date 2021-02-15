@@ -1,0 +1,124 @@
+* {
+  margin: 2px;
+  padding: 0;
+}
+#navbar {
+  display: flex;
+  background-color: #24252a;
+  color: white;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+}
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  width: 618px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#navbar ul li {
+  display: inline-block;
+  line-height: 70px;
+  padding: 10px;
+}
+#navbar ul li a {
+  text-decoration: none;
+  color: #edf0f1;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+#navbar ul li a:hover,
+#navbar ul li a.active {
+  background-color: #0088a9;
+}
+
+/* logo */
+#logo {
+  display: flex;
+  height: 80px;
+  width: 160px;
+  /* margin-right: 60px; */
+  /* margin-left: 40px; */
+  justify-content: flex-end;
+  align-items: center;
+}
+#logo h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* search-box */
+/* .search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  height: 80px;
+  margin-right: 80px;
+}
+.search-box input {
+  text-shadow: none;
+  appearance: none;
+  outline: none;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  margin-right: 10px;
+  margin-left: 68px;
+  padding: 11px 23px;
+  background-color: white;
+  line-height: 1.5;
+  border: none;
+  border-radius: 25px;
+}
+
+.search-box .btn {
+  width: 80px;
+  height: 43px;
+  color: #0088a9;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  background-color: transparent;
+  border: 2px solid #0088a9;
+  border-radius: 25px;
+  outline: none;
+}
+
+.search-box .btn:hover {
+  color: #edf0f1;
+  background-color: #0088a9;
+} */
+
+/* check-box */
+
+#check {
+  display: none;
+}
+
+.check-area {
+  padding: 10px;
+  width: 50px;
+  height: 40px;
+  margin-top: 9px;
+  margin-right: 53px;
+  margin-left: 57px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  display: none;
+}
+
+.check-area span {
+  background-color: #0088a9;
+  height: 5px;
+  width: 70%;
+  margin: 3px 0px;
+}
