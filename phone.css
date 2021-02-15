@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 350px) {
   #logo {
-    width: 112px;
+    width: 78px;
   }
   #logo h3 {
     font-size: 20px;
@@ -42,8 +42,8 @@
     width: 32px;
     height: 27px;
     margin-top: 18px;
-    margin-right: 35px;
-    margin-left: 42px;
+    margin-right: 6px;
+    margin-left: 30px;
   }
   #navbar ul li a{
     font-size: 16px;
